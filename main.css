@@ -19,3 +19,8 @@
 #india{
     fill: green;
 }
+
+.navbar-brand {
+    font-family: Permanent Marker, Trebuchet MS;
+    color: green;
+}
