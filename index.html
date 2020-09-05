@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script src="https://codepen.io/avm208/pen/abNVQZN"></script>
+        <link rel="stylesheet" href="./projectStyle.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- CSS page -->
-        <link rel="stylesheet" href="main.css">
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -22,7 +22,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
               <div class="navbar-header">
-                <a class="navbar-brand" href="#">Seven Wonders of the World</a>
+                <a class="navbar-brand" id="nav-title" href="#">Seven Wonders of the World</a>
               </div>
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html">The Map</a></li>
@@ -42,7 +42,7 @@
     
     
         <main>
-            <svg width="950" height="620" xmlns="http://www.w3.org/2000/svg">
+            <!-- <svg width="950" height="620" xmlns="http://www.w3.org/2000/svg">
                 <metadata id="metadata346">image/svg+xml</metadata>
             
                 <g>
@@ -51,9 +51,12 @@
                 </g>
                 <g>
                     <title>Planet Earth</title>
-                    <path d="m781.68,324.4l-2.31,8.68l-12.53,4.23l-3.75,-4.4l-1.82,0.5l3.4,13.12l5.09,0.57l6.79,2.57l0,2.57l3.11,-0.57l4.53,-6.27l0,-5.13l2.55,-5.13l2.83,0.57l-3.4,-7.13l-0.52,-4.59l-3.97,0.41l0,0z" id="kalimantan"/>
+                    <path d="m781.68,324.4l-2.31,8.68l-12.53,4.23l-3.75,-4.4l-1.82,0.5l3.4,13.12l5.09,0.57l6.79,2.57l0,2.57l3.11,-0.57l4.53,-6.27l0,-5.13l2.55,-5.13l2.83,0.57l-3.4,-7.13l-0.52,-4.59l-3.97,0.41l0,0z" id="kalimantan"/> -->
+
+            <svg width="950" height="620" xmlns="http://www.w3.org/2000/svg" id ="countries">
+                
+                <path d="m781.68,324.4l-2.31,8.68l-12.53,4.23l-3.75,-4.4l-1.82,0.5l3.4,13.12l5.09,0.57l6.79,2.57l0,2.57l3.11,-0.57l4.53,-6.27l0,-5.13l2.55,-5.13l2.83,0.57l-3.4,-7.13l-0.52,-4.59l-3.97,0.41l0,0z" id="kalimantan"/>
                     <path d="m852.76,348.29l-0.37,24.44l3.52,-0.19l4.63,-5.41l3.89,0.19l2.5,2.24l0.83,6.9l7.96,4.2l2.04,-0.75l0,-2.52l-6.39,-5.32l-3.15,-7.28l2.5,-1.21l-1.85,-4.01l-3.7,-0.09l-0.93,-4.29l-9.81,-6.62l-1.67,-0.28l0,0z" id="papua new guinea"/>
-                    
                     <path d="m517.77,143.66l-5.6,-0.2l-3.55,2.17l-0.05,1.61l2.3,2.17l7.15,1.21l-0.25,-6.96l0,0z" id="estonia"/>
                     <path d="m473.88,227.49l-4.08,-1.37l-16.98,3.19l-3.7,2.81l2.26,11.67l-6.75,0.27l-4.06,6.53l-9.67,2.32l0.03,4.75l31.85,24.35l5.43,0.46l18.11,-14.15l-1.81,-2.28l-3.4,-0.46l-2.04,-3.42l0,-14.15l-1.36,-1.37l0.23,-3.65l-3.62,-3.65l-0.45,-3.88l1.58,-1.14l-0.68,-4.11l-0.89,-2.72l0,0z" id="algeria"/>
                     <path d="m448.29,232.28l-11.55,0l-2.26,5.02l-5.21,2.51l-4.3,11.64l-8.38,5.02l-11.77,19.39l11.55,-0.23l0.45,-5.7l2.94,0l0,-7.76l10.19,0l0.23,-10.04l9.74,-2.28l4.08,-6.62l6.34,-0.23l-2.05,-10.72l0,0z" id="morocco"/>
@@ -391,75 +394,129 @@
                     <path d="m506.71,217.6l-0.11,1.33l4.63,2.33l2.21,0.85l-1.16,1.22l-2.58,0.26l-0.37,1.17l0.89,2.01l2.89,1.54l1.26,0.11l0.16,-3.45l1.89,-2.28l-5.16,-6.1l0.68,-2.07l1.21,-0.05l1.84,1.48l1.16,-0.58l0.37,-2.07l5.42,0.05l0.21,-3.18l-2.26,1.59l-6.63,-0.16l-4.31,2.23l-2.24,3.77l0,0z" id="greece"/>
                     <path d="m523.02,209.7l-0.16,3.55l3.1,-0.95l1.42,-0.95l-0.42,-1.54l-1.47,-1.17l-2.47,1.06l0,0z" id="thrace"/>
                     <path d="m516.76,230.59l1.63,0.05l0.68,1.01l2.37,0l1.58,-0.58l0.53,0.64l-1.05,1.38l-4.63,0.16l-0.84,-1.11l-0.89,-0.53l0.62,-1.02l0,0z" id="crete"/>
-                </g>
+                
+                    
 
                 <g id="mexico">
                     <title>Mexico</title>
                     <desc>
-                        <p>Information about mexico goes here</p>
+                        <img src="mexico.jpg" alt="El Castillo" height="150px">
+                        <br>
+                        <p>
+                            <strong>El Castillo, Mexico</strong>
+                            <br>
+                            This Mayan masterpiece, located in the Yucatan State of Mexico, is 24m high and serves as testament to the Mayans' astronomical abilities. El Castillo contains 365 steps; one for each day of the solar year. During the spring and autumn equinoxes, the setting sun casts a shadow on a pyramid that appears as a serpent slithering down the stairway.
+                            <br>
+                            This is highly impressive architecture, and when you consider it was built in the 9th and 10th centuries AD, even more so!
+                        </p>
                     </desc>
                     <path d="m137.49,225.43l4.83,15.21l-2.25,1.26l0.25,3.02l4.25,3.27l0,6.05l5.25,5.04l-2.25,-14.86l-3,-9.83l0.75,-6.8l2.5,0.25l1,2.27l-1,5.79l13,25.44l0,9.07l10.5,12.34l11.5,5.29l4.75,-2.77l6.75,5.54l4,-4.03l-1.75,-4.54l5.75,-1.76l1.75,1.01l1.75,-1.76l2.75,0l5,-8.82l-2.5,-2.27l-9.75,2.27l-2.25,6.55l-5.75,1.01l-6.75,-2.77l-3,-9.57l2.27,-12.07l-4.64,-2.89l-2.21,-11.59l-1.85,-0.79l-3.38,3.43l-3.88,-2.07l-1.52,-7.73l-15.37,-1.61l-7.94,-5.97l-7.56,0.39l0,0z"/>
                 </g>
 
-                <g id="china">
-                    <title>china</title>
+                <g id="china"> 
+                    <title>China</title>
                     <desc>
-                        <p>Information about china goes here</p>
+                        <img src="china.jpg" alt="Great Wall of China" height="150px">
+                        <br>
+                      <p><strong>Great Wall of China</strong>
+                        <br>
+                        The almighty Great Wall of China is located in the Huairou District close to Beijing. Building it took quite literally thousands of years - construction began in the 7th century and continued for <strong></strong>2</strong> millennia!
+                        <br>
+                        The actual length of the wall, which for many stretches is actually 2 parallel walls, varies depending on who you ask... Some would tell you 5,500 miles, while others would say 13,170 miles!
+                        <br>
+                        This wonder of the world was built to prevent invasions and raids. However, some scholars argue that it was ineffective at this and instead served as political propaganda.
+                      </p>
                     </desc>
                     <path stroke-width="0" d="m670.4,170.07l-3.46,8.7l-4.77,-0.25l-5.03,11.01l4.27,5.44l-8.8,12.15l-4.52,-0.76l-3.02,3.8l0.75,2.28l3.52,0.25l1.76,4.05l3.52,0.76l10.81,13.93l0,7.09l5.28,3.29l5.78,-1.01l7.29,4.3l8.8,2.53l4.27,-0.51l4.78,-0.51l10.05,-6.58l3.27,0.51l1.25,2.97l2.77,0.83l3.77,5.57l-2.51,5.57l1.51,3.8l4.27,1.52l0.75,4.56l5.03,0.51l0.75,-2.28l7.29,-3.8l4.52,0.25l5.28,5.82l3.52,-1.52l2.26,0.25l1.01,2.79l1.76,0.25l2.51,-3.54l10.05,-3.8l9.05,-10.89l3.02,-10.38l-0.25,-6.84l-3.77,-0.76l2.26,-2.53l-0.5,-4.05l-9.55,-9.62l0,-4.81l2.76,-3.54l2.76,-1.27l0.25,-2.79l-7.04,0l-1.26,3.8l-3.27,-0.76l-4.02,-4.3l2.51,-6.58l3.52,-3.8l3.27,0.25l-0.5,5.82l1.76,1.52l4.27,-4.3l1.51,-0.25l-0.5,-3.29l4.02,-4.81l3.02,0.25l1.76,-5.57l2.06,-1.09l0.21,-3.47l-2,-2.1l-0.17,-5.48l3.85,-0.25l-0.25,-14.13l-2.7,1.62l-1.01,3.62l-4.51,-0.01l-13.07,-7.35l-9.44,-11.38l-9.58,-0.1l-2.44,2.12l3.1,7.1l-1.08,6.66l-3.86,1.6l-2.17,-0.17l-0.16,6.59l2.26,0.51l4.02,-1.77l5.28,2.53l0,2.53l-3.77,0.25l-3.02,6.58l-2.76,0.25l-9.8,12.91l-10.3,4.56l-7.04,0.51l-4.77,-3.29l-6.79,3.55l-7.29,-2.28l-1.76,-4.81l-12.31,-0.76l-6.53,-10.63l-2.76,0l-2.22,-4.93l-2.64,-0.21z"/>
+                 
                 </g>
 
                 <g id="jordan">
-                    <title>jordan</title>
+                    <title>Jordan</title>
                     <desc>
-                        <p>Information about jordan goes here</p>
+                            <img src="jordan.jpg" alt="Petra" height="100px">
+                            <br>
+                        <p>    
+                          <strong>Petra, Jordan</strong>
+                          <br>
+                          This breathtaking ancient city is located in a remote valley of sandstone mountains. The Nabataeans, an Arab tribe known for their exquisite carving skills, made Petra their capital in around the 2nd-4th century BC. At this time, Petra had a population of 30,000 and was an important trade centre specialising in spices.
+                          <br>
+                          Factors such as the shifting of trade routes and earthquakes meant that eventually Petra was abandoned. Many questions remain about the city.
+                        </p>
                     </desc>
                     <path d="m548.9,240.78l-2.46,8.58l-0.11,1.31l3.87,0l4.33,-3.82l0.11,-1.45l-1.77,-1.81l3.17,-2.63l-0.46,-2.44l-0.87,0.2l-2.64,1.89l-3.17,0.17l0,0z"/>
                 </g>
 
                 <g id="peru">
-                    <title>peru</title>
+                    <title>Peru</title>
                     <desc>
-                        <p>Information about peru goes here</p>
+                        <img src="peru.jpg" alt="Machu Picchu" height="150px">
+                        <br>
+                        <p><strong>Machu Picchu, Peru</strong>
+                        <br>
+                        Even to this day, Machu Picchu remains quite the mystery. It is nestled in the Andes mountains, and was expertly crafted by the Incan people.
+                    <br>
+                    Some believe it was a pilgrimage site, others that it was a royal retreat. Regardless of its original purpose, the dazzling qualities of its agricultural terraces, plazas, residential areas and temples are clear.</p>
                     </desc>
                     <path d="m225.03,349.52l-1.94,1.96l0.13,3.13l16.94,30.88l17.59,11.34l2.72,-4.56l0.65,-10.03l-1.42,-6.25l-4.79,-8.08l-2.85,0.91l-1.29,1.43l-5.69,-6.52l1.42,-7.69l6.6,-4.3l-0.52,-4.04l-6.72,-0.26l-3.49,-5.86l-1.94,-0.65l0.13,3.52l-8.66,10.29l-6.47,-1.56l-0.4,-3.66l0,0z"/>
                 </g>
 
                 <g id="brazil">
-                    <title>brazil</title>
+                    <title>Brazil</title>
                     <desc>
-                        <p>Information about brazil goes here</p>
+                        <img src="brazil.jpg" alt="Christ the Redeemer" height="150px">
+                        <br>
+                        <p>This absolutely huge wonder can be found on Mount Corcovado in Rio de Janeiro. It was built just after World War I, and took 5 years to construct.
+                            <br>
+                            The statue stands 38 metres in total, and is the <strong>largest art deco sculpture in the world!</strong> Strangely, the statue has been struck by lightning multiple times.
+                        </p>
                     </desc>
                     <path d="m314.24,438.85l6.25,-12.02l0.23,-10.1l11.66,-7.52l6.53,0l5.13,-8.69l0.93,-16.68l-2.1,-4.46l12.36,-11.28l0.47,-12.45l-16.79,-8.22l-20.28,-6.34l-9.56,-0.94l2.57,-5.4l-0.7,-8.22l-2.09,-0.69l-3.09,6.14l-1.62,2.03l-4.16,-1.84l-13.99,4.93l-4.66,-5.87l0.75,-6.13l-4.4,4.48l-4.86,-2.62l-0.49,0.69l0.01,2.13l4.19,2.25l-6.29,6.63l-3.97,-0.04l-4.02,-4.09l-4.55,0.14l-0.56,4.86l2.61,3.17l-3.08,9.87l-3.6,0.28l-5.73,3.62l-1.4,7.11l4.97,5.32l0.91,-1.03l3.49,-0.94l2.98,5.02l8.53,-3.66l3.31,0.19l2.28,8.07l12.17,3.86l2.1,6.44l5.18,0.62l2.47,6.15l-1.67,5.47l2.18,2.86l-0.32,4.26l5.84,-0.55l5.35,6.76l-0.42,4.75l3.17,2.68l-7.6,11.51l13.38,7.49l0,0z"/>
                 </g>
 
-                <g id="india">
-                    <title>india</title>
+                <g  id="india">
+                    <title>India</title>
                     <desc>
-                        <p>Information about india goes here</p>
+                        <img src="india.jpg" alt="Taj Mahal" height="150px">
+                        <br>
+                        <p>
+                            <strong>Taj Mahal, India</strong>
+                            <br>
+                            Wow! The Taj Mahal really is gorgeous. Located in Agra and built in the 17th century by 20,000 workers, the Taj Mahal is suggested to be one of the finest examples of Mughal architecture.
+                            <br>
+                            Emperor Shah Jahan ordered it to be built in order to honour his wife Mumtaz Mahal, who died in 1631 giving birth to their 14th child.
+                            <br>
+                            This beauty is made of white marble and features semiprecious stones in geometric and floral patterns.
+                        </p>
                     </desc>
                     <path d="m670.98,313.01l4.58,-2.24l2.72,-9.84l-0.12,-12.08l15.58,-16.82l0,-3.99l3.21,-1.25l-0.12,-4.61l-3.46,-6.73l1.98,-3.61l4.33,3.99l5.56,0.25l0,2.24l-1.73,1.87l0.37,1l2.97,0.12l0.62,3.36l0.87,0l2.23,-3.99l1.11,-10.46l3.71,-2.62l0.12,-3.61l-1.48,-2.87l-2.35,-0.12l-9.2,6.08l0.58,3.91l-6.46,-0.02l-2.28,-2.79l-1.24,0.16l0.42,3.88l-13.97,-1l-8.66,-3.86l-0.46,-4.75l-5.77,-3.58l-0.07,-7.37l-3.96,-4.53l-9.1,0.87l0.99,3.96l4.46,3.61l-7.71,15.78l-5.16,0.39l-0.85,1.9l5.08,4.7l-0.25,4.75l-5.19,-0.08l-0.56,2.36l4.31,-0.19l0.12,1.87l-3.09,1.62l1.98,3.74l3.83,1.25l2.35,-1.74l1.11,-3.11l1.36,-0.62l1.61,1.62l-0.49,3.99l-1.11,1.87l0.25,3.24l16.43,34.1l0,0z" />
                 </g>
 
                 <g id="italy">
-                    <title>italy</title>
+                    <title>Italy</title>
                     <desc>
-                        <p>Information about italy goes here</p>
+                        <img src="italy.jpg" alt="Colosseum" height="150px">
+                        <br>
+                        <p>
+                            <strong>Colosseum, Italy</strong>
+                            <br>
+                            This incredible structure is located in Rome, and was built in the 1st century by order of Emperor Vespasian.
+                            <br>
+                            It features a complex system of vaults, and in its golden day it held 50,000 spectators for a variety of events which included gladiator fights and men battling animals.
+                            <br>
+                            <strong>It is estimated that 500,000 people died in the colosseum.</strong>
+                        </p>
                     </desc>
                     <path d="m472.27,196.98l-0.62,1.57l0.17,1.71l2.39,2.79l3.76,-0.13l8.3,9.64l5.18,1.5l3.06,2.89l0.73,6.59l1.64,-0.96l1.42,-3.59l-0.35,-2.58l2.43,-0.22l0.35,-1.46l-6.85,-3.28l-6.5,-6.39l-2.59,-3.82l-0.63,-3.63l3.31,-0.79l-0.85,-2.39l-2.03,-1.71l-1.75,-0.08l-2.44,0.67l-2.3,3.22l-1.39,0.92l-2.15,-1.32l-2.29,0.85l0,0z"/>
                 </g>
-
-
-
-
-
-
-
-
+                
             </svg>
 
-            <div id="Info"></div>
-                
+          <div id="Info"></div>
+         <br>
+         <Br>
+            <p>Thanks to <a href="https://www.britannica.com/list/new-seven-wonders-of-the-world" target="_blank">Britannica</a> for the information displayed here!</p>
+          
         </main>
 
  
