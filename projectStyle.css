@@ -1,6 +1,6 @@
 #nav-title {
     font-family: Permanent Marker, Trebuchet MS;
-    color: green;
+    color: lightgreen;
     font-size: 40px;
     padding: 15px;
 }
@@ -30,14 +30,17 @@
 * { box-sizing: border-box; }
 
 body {
-    background: #88a;
-    color: #fff;
-    font-family: Avenir, Calibri, sans-serif;
+    color: black;
+    font-family: Amaranth, Avenir, Calibri, sans-serif;
     text-align: center;
   }
 
+.country_box {
+    background: hsl(240, 55%, 40%) !important;
+}
+
 #countries {
-    fill: rgb(1, 51, 1);
+    fill: black;
 }
 
 #countries g {
@@ -57,10 +60,14 @@ body {
     position: absolute;
     top: 0; right: 0;
     width: 25%;
-    background: rgba(0,0,0,0.2);
+    background: hsl(240, 55%, 40%);
+    color: lightgreen;
+    border-radius: 25px;
     pointer-events: none;
-    opacity: 0;
-    transition: 1s; 
+    opacity: 0.7;
+    transition: 1s;
+    font-family: Amaranth, Avenir, Calibri, sans-serif;
+    font-size: 13px;
 }
 
 @media all and (max-width: 800px) {
@@ -94,12 +101,13 @@ body {
 #Info p {
     margin-left: 2rem;
     margin-right: 2rem;
+    font-family: Amaranth, Calibri;
 }
 
 #about_us_page {
-    background-color: green;
+    background-color: hsl(240, 55%, 40%);
     background-position: fixed;
-    padding: 100px;
+    padding: 60px 100px 100px 100px;
 }
 
 #about_us_main {
@@ -107,7 +115,7 @@ body {
     background-position: fixed;
     padding: 60px;
     text-align: center;
-    font-family: Avenir, Calibri, sans-serif;
+    font-family: Amaranth, Avenir, Calibri, sans-serif;
     border: black 90px;
 }
 
@@ -116,4 +124,8 @@ body {
     background-position: fixed;
     opacity: 0.9;
     padding: 10px;
+}
+
+p {
+    font-family: Amaranth, Calibri;
 }

@@ -1,10 +1,5 @@
 var head = document.getElementsByTagName('HEAD')[0];
 
-link.rel = 'stylesheet';  
-link.type = 'text/css';     
-link.href = './projectStyle.css';  
-
-
 var map = document.getElementById("countries"),
 Info = document.getElementById("Info"),
 allCountries = map.querySelectorAll("g");
