@@ -129,3 +129,13 @@ body {
 p {
     font-family: Amaranth, Calibri;
 }
+
+span {
+    font-size: 35px;
+    font-family: 'Georgia';
+    color: hsl(240, 55%, 40%);
+}
+
+.bio {
+    font-size: 11px;
+}
