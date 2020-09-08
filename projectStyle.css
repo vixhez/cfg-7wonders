@@ -138,4 +138,6 @@ span {
 
 .bio {
     font-size: 11px;
+    border: hsl(240, 55%, 40%) 2px solid;
+    border-radius: 25px;
 }
